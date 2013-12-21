@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Settings Import / Export Example Plugin
- * Plugin URI: http://pippinsplugins.com/building-a-settings-import-and-export-feature-in-your-plugin
- * Description: Serve Digital Downloads Through WordPress
+ * Plugin URI: http://pippinsplugins.com/building-a-settings-import-and-export-feature
+ * Description: An example plugin that shows how to create a settings import and export feature
  * Author: Pippin Williamson
  * Author URI: http://pippinsplugins.com
  * Version: 1.0
