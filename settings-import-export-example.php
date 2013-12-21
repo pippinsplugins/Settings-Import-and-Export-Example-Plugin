@@ -32,9 +32,7 @@ add_action( 'admin_menu', 'pwsix_settings_menu' );
  */
 function pwsix_settings_page() {
 
-	$options = get_option( 'pwsix_settings' );
-
-	?>
+	$options = get_option( 'pwsix_settings' ); ?>
 	<div class="wrap">
 		<h2><?php screen_icon(); _e('Sample Plugin Settings'); ?></h2>
 		<form method="post" action="options.php" class="options_form">
@@ -152,9 +150,9 @@ function pwsix_process_settings_import() {
 
 	$extension = end( explode( '.', $_FILES['import_file']['name'] ) );
 
-    if( $extension != 'json' ) {
-        wp_die( __( 'Please upload a valid .json file' ) );
-    }
+	if( $extension != 'json' ) {
+		wp_die( __( 'Please upload a valid .json file' ) );
+	}
 
 	$import_file = $_FILES['import_file']['tmp_name'];
 
