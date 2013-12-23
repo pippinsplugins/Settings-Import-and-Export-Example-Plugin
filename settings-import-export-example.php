@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Settings Import / Export Example Plugin
- * Plugin URI: http://pippinsplugins.com/building-a-settings-import-and-export-feature
+ * Plugin URI: http://pippinsplugins.com/building-settings-import-export-feature/
  * Description: An example plugin that shows how to create a settings import and export feature
  * Author: Pippin Williamson
  * Author URI: http://pippinsplugins.com
